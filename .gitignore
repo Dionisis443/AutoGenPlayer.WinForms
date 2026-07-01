@@ -1,0 +1,47 @@
+# Build outputs
+bin/
+obj/
+**/bin/
+**/obj/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet/package outputs
+*.nupkg
+*.snupkg
+packages/
+nupkg/
+artifacts/
+
+# Runtime/native binaries supplied by host apps
+Native/FFmpeg/
+**/Native/FFmpeg/
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+avcodec-*.dll
+avdevice-*.dll
+avfilter-*.dll
+avformat-*.dll
+avutil-*.dll
+postproc-*.dll
+swresample-*.dll
+swscale-*.dll
+
+# Logs and local diagnostics
+*.log
+*.binlog
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
